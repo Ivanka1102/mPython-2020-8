@@ -11,6 +11,6 @@ x,y,z=mc.player.getPos()
 
 a=0
 while a<20:
-    mc.setBlocks(x,y-1,z+30,x,y-10,z-30,19)
+    mc.setBlocks(x,y-1,z+30,x,y-10,z-30,5,1)
     x=x-5
     a=a+1
